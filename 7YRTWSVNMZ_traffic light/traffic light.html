@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div style="height:100vh;background-color:#86d2f2">
+        <h1 style="font-weight:bold;text-align:center" class="pt-3">Traffic Light</h1>
+        <div class="d-flex flex-row justify-content-center mt-5">
+            <div class="d-flex flex-column justify-content-center mr-4">
+                <button class="buttonstyle" id="stopButton" onclick="b1action()">Stop</button>
+                <button class="buttonstyle" id="readyButton" onclick="b2action()">Ready</button>
+                <button class="buttonstyle" id="goButton" onclick="b3action()">Go</button>
+            </div>
+            <div style="background-color:#1f1d41" class="light2">
+                <div id="stopLight" class="light">A</div>
+                <div id="readyLight" class="light">A</div>
+                <div id="goLight" class="light">A</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
